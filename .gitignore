@@ -1,0 +1,7 @@
+# Windows Files
+*.exe
+*.a
+
+# Vim Files
+*.sw[a-z0-9]
+*~

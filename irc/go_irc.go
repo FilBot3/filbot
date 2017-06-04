@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/go-chat-bot/bot"
 	"github.com/go-chat-bot/bot/irc"
 	_ "github.com/predatorian3/filbot/hello_world"
 	"os"
@@ -9,7 +8,7 @@ import (
 )
 
 func main() {
-	bot_config := &bot.Config{
+	bot_config := &irc.Config{
 		Server:   os.Getenv("IRC_SERVER"),
 		Channels: strings.Split(os.Getenv("IRC_CHANNELS"), ","),
 		User:     os.Getenv("IRC_USER"),
