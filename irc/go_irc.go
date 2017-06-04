@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/go-chat-bot/bot"
 	"github.com/go-chat-bot/bot/irc"
-	_ "github.com/predatorian3/go_chat_system/hello_world"
+	_ "github.com/predatorian3/filbot/hello_world"
 	"os"
 	"strings"
 )
